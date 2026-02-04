@@ -1,0 +1,84 @@
+{
+  "scoring_dimensions": [
+    {
+      "dimension": "Scale & Market Presence",
+      "description": "Annual freight under management, customer count, geographic reach, financial backing, ability to win large deals",
+      "signals": [
+        "Shipment volume (if stated)",
+        "Employee count (LinkedIn)",
+        "Revenue estimate (Growjo/Tracxn/inference)",
+        "Office locations",
+        "PE/corporate backing",
+        "Customer logos or count",
+        "Geographic coverage"
+      ],
+      "scoring_guide": {
+        "9-10": "Top 1-2 in market, PE-backed, national+, 100M+ revenue",
+        "7-8": "Strong national player, 50-100M revenue range, significant backing",
+        "5-6": "Mid-market, regional strength, PE-backed but smaller",
+        "3-4": "Niche/boutique, limited geography, <20M revenue",
+        "1-2": "Micro, single-region, no backing"
+      }
+    },
+    {
+      "dimension": "Technology Maturity & Product Strength",
+      "description": "Platform robustness, modernity, feature breadth, proprietary IP, integration depth, dev team size",
+      "signals": [
+        "Proprietary vs licensed platform",
+        "Cloud-native vs legacy architecture",
+        "Feature completeness vs matrix",
+        "API/integration breadth",
+        "Mobile support",
+        "Uptime claims",
+        "Tech team hiring signals"
+      ],
+      "scoring_guide": {
+        "9-10": "Best-in-class proprietary platform, innovative features, large dev team",
+        "7-8": "Strong proprietary or top-tier licensed platform, full feature set",
+        "5-6": "Adequate platform (proprietary or licensed), meets basics",
+        "3-4": "Basic/white-label TMS, limited features",
+        "1-2": "Manual or near-manual operations"
+      }
+    },
+    {
+      "dimension": "Digital Marketing Maturity",
+      "description": "Website quality, SEO, content marketing, social media, thought leadership, lead gen sophistication",
+      "signals": [
+        "Website quality and messaging clarity",
+        "Blog/content frequency and depth",
+        "LinkedIn follower count and post engagement",
+        "Presence on software directories (G2, GetApp)",
+        "Google Ads activity (Ads Transparency)",
+        "Meta/social ad activity",
+        "Case studies and testimonials published",
+        "PR/media mentions"
+      ],
+      "scoring_guide": {
+        "9-10": "Sophisticated multi-channel, strong SEO, regular thought leadership",
+        "7-8": "Professional site, active content, good social presence",
+        "5-6": "Decent site, some content, moderate social",
+        "3-4": "Basic site, minimal content, low social",
+        "1-2": "Rudimentary or outdated web presence"
+      }
+    },
+    {
+      "dimension": "AI Integration & Innovation",
+      "description": "Extent of AI/ML in product or operations: predictive analytics, chatbots, intelligent automation, optimisation algorithms",
+      "signals": [
+        "Explicit AI/ML features in product (chatbot, prediction, etc)",
+        "Marketing claims about AI (verified vs vaporware)",
+        "Algorithmic sophistication (rule-based vs ML)",
+        "Data assets that could enable AI",
+        "Hiring for data science/ML roles",
+        "AI mentioned in press or partnerships"
+      ],
+      "scoring_guide": {
+        "9-10": "Production AI features, demonstrated ML, AI-first positioning",
+        "7-8": "One or more deployed AI features, credible AI roadmap",
+        "5-6": "Algorithmic optimisation (possibly ML), AI exploration signals",
+        "3-4": "Rule-based automation marketed as 'intelligent', no real ML",
+        "1-2": "No AI features, traditional approach"
+      }
+    }
+  ]
+}
