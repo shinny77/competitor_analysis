@@ -1,0 +1,82 @@
+{
+  "project_name": "tig_freight_analysis",
+  "target_company": "TIG Freight",
+  "target_website": "https://www.tigfreight.com.au",
+  "industry": "Tech-enabled 4PL / Freight Management",
+  "competitors": [
+    {
+      "name": "EFM Logistics",
+      "website": "https://efmlogistics.com.au",
+      "aliases": ["EFM"],
+      "notes": "Largest 4PL in ANZ by volume. PEP-backed."
+    },
+    {
+      "name": "Allied Freight Systems",
+      "website": "https://www.afs.com.au",
+      "aliases": ["AFS"],
+      "notes": "Growth Fund backed. National presence."
+    },
+    {
+      "name": "MyFreight",
+      "website": "https://www.myfreight.com.au",
+      "aliases": [],
+      "notes": "SaaS-forward platform. ML features claimed."
+    },
+    {
+      "name": "Freight People",
+      "website": "https://www.freightpeople.com.au",
+      "aliases": [],
+      "notes": "Mid-market 4PL."
+    },
+    {
+      "name": "Steadfast Logistics",
+      "website": "https://www.steadfastlogistics.com.au",
+      "aliases": ["Steadfast"],
+      "notes": "PE-backed. Regional strength."
+    },
+    {
+      "name": "Cora Group",
+      "website": "https://www.coragroup.com.au",
+      "aliases": ["Cora"],
+      "notes": "Multi-brand logistics group."
+    },
+    {
+      "name": "Deliver",
+      "website": "https://www.deliver.net.au",
+      "aliases": [],
+      "notes": "Technology-led freight management."
+    },
+    {
+      "name": "Netlogix",
+      "website": "https://www.netlogix.com.au",
+      "aliases": [],
+      "notes": "Niche 4PL with tech focus."
+    },
+    {
+      "name": "Hydra Logistics",
+      "website": "https://www.hydralogistics.com.au",
+      "aliases": ["Hydra"],
+      "notes": "Emerging player in managed freight."
+    }
+  ],
+  "feature_template_path": "config/feature_template.json",
+  "scoring_template_path": "config/scoring_template.json",
+  "budget": {
+    "max_usd": 20.0,
+    "alert_at_pct": [50, 75],
+    "hard_stop_pct": 100
+  },
+  "output": {
+    "generate_battlecards": true,
+    "generate_comparison_pages": true,
+    "generate_docx": true,
+    "brand_colors": {
+      "primary": "#2A2829",
+      "secondary": "#5A7DA3"
+    },
+    "heading_font": "Gilda Display",
+    "body_font": "Roboto"
+  },
+  "max_research_retries": 3,
+  "parallel_research": true
+}
