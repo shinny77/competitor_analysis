@@ -1,0 +1,55 @@
+{
+  "feature_categories": [
+    {
+      "category": "Core Platform",
+      "features": [
+        "Multi-modal freight booking (road, air, sea, rail)",
+        "Carrier network size (number of integrations)",
+        "Rate shopping & carrier selection (least-cost routing)",
+        "Real-time tracking & alerts",
+        "Customer self-service portal (SaaS access)",
+        "Mobile app or mobile-responsive interface"
+      ]
+    },
+    {
+      "category": "Integration & Connectivity",
+      "features": [
+        "ERP/WMS integration (APIs)",
+        "E-commerce platform integration (Shopify, WooCommerce, Magento)",
+        "EDI support",
+        "Webhook/event-driven notifications",
+        "Carrier API library breadth"
+      ]
+    },
+    {
+      "category": "Analytics & Reporting",
+      "features": [
+        "Analytics & BI dashboards",
+        "Cost-to-serve reporting",
+        "Carbon footprint / sustainability reporting",
+        "What-if scenario modelling",
+        "Custom report builder"
+      ]
+    },
+    {
+      "category": "Automation & Intelligence",
+      "features": [
+        "AI/ML features (chatbots, predictive)",
+        "Business rule-based carrier allocation",
+        "Automated invoice reconciliation",
+        "Proactive exception/delay alerting",
+        "Workflow automation (custom triggers)"
+      ]
+    },
+    {
+      "category": "Service Model",
+      "features": [
+        "Fully managed 4PL service option",
+        "Software-only / SaaS-only option",
+        "Dedicated account management",
+        "Onboarding & training program",
+        "SLA-backed uptime guarantee"
+      ]
+    }
+  ]
+}
