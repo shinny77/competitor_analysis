@@ -1,0 +1,72 @@
+{
+  "content_extraction": {
+    "provider": "claude",
+    "model": "claude-sonnet-4-20250514",
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "max_tokens": 4096,
+    "temperature": 0.2
+  },
+  "profile_drafting": {
+    "provider": "claude",
+    "model": "claude-sonnet-4-20250514",
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "max_tokens": 8192,
+    "temperature": 0.3
+  },
+  "profile_challenger": {
+    "provider": "grok",
+    "model": "grok-2",
+    "api_key_env": "XAI_API_KEY",
+    "max_tokens": 4096,
+    "temperature": 0.3
+  },
+  "feature_scoring": {
+    "provider": "claude",
+    "model": "claude-sonnet-4-20250514",
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "max_tokens": 4096,
+    "temperature": 0.2
+  },
+  "feature_verification": {
+    "provider": "gemini",
+    "model": "gemini-2.0-flash",
+    "api_key_env": "GOOGLE_API_KEY",
+    "max_tokens": 4096,
+    "temperature": 0.2
+  },
+  "capability_scoring_primary": {
+    "provider": "claude",
+    "model": "claude-sonnet-4-20250514",
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "max_tokens": 4096,
+    "temperature": 0.3
+  },
+  "capability_scoring_secondary": {
+    "provider": "openai",
+    "model": "gpt-4o",
+    "api_key_env": "OPENAI_API_KEY",
+    "max_tokens": 4096,
+    "temperature": 0.3
+  },
+  "capability_arbitrator": {
+    "provider": "grok",
+    "model": "grok-2",
+    "api_key_env": "XAI_API_KEY",
+    "max_tokens": 4096,
+    "temperature": 0.3
+  },
+  "claim_verification": {
+    "provider": "gemini",
+    "model": "gemini-2.0-flash",
+    "api_key_env": "GOOGLE_API_KEY",
+    "max_tokens": 4096,
+    "temperature": 0.1
+  },
+  "editorial": {
+    "provider": "claude",
+    "model": "claude-sonnet-4-20250514",
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "max_tokens": 8192,
+    "temperature": 0.4
+  }
+}
